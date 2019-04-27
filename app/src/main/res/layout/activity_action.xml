@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_5"
+    tools:context=".Action">
+
+    <Button
+        android:id="@+id/custom_button1"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/custom_button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="73dp"
+        android:background="@drawable/custom_buttons"
+        android:text="Panic" />
+
+    <Button
+        android:id="@+id/custom_button2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/custom_buttons2"
+        android:text="Cautious" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="167dp"
+        android:checked="true"
+        android:text="Enable"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/custom_button3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="66dp"
+        android:layout_toEndOf="@+id/custom_button2"
+        android:background="@drawable/custom_buttons3"
+        android:text="Update" />
+</RelativeLayout>

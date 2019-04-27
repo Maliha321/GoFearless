@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoFearless</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome!</string>
+    <string name="enter">Enter</string>
+    <string name="button">Button</string>
+</resources>
